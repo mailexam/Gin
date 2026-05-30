@@ -1,0 +1,11 @@
+# Local debugging in Docker — host setup is documented in README.md
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      BIND_ADDR: 0.0.0.0
+      PORT: "8080"
