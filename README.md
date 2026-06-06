@@ -141,6 +141,6 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 ## See also
 
 - [Mailexam Gin guide (wiki)](https://wiki.mailexam.ru/en/examples/gin/)
+- [Axum](https://github.com/mailexam/Axum), [Actix Web](https://github.com/mailexam/Actix) — other high-performance frameworks
 - [Gin documentation](https://gin-gonic.com/docs/)
-- [Axum reference implementation](https://github.com/mailexam/Axum) — Rust alternative with the same mail module
 - [Mailexam API documentation](https://mailexam.ru/api)
