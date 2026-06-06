@@ -35,7 +35,7 @@ func sendTest(to, subject, body string) error {
 		body = "Mailexam test from Gin"
 	}
 
-	host := login + ".mailexam.ru"
+	host := login + ".mailexam.io"
 	addr := fmt.Sprintf("%s:%d", host, port)
 	auth := smtp.PlainAuth("", login, password, host)
 

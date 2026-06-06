@@ -1,6 +1,6 @@
 # Gin + Mailexam
 
-Minimal [Gin](https://gin-gonic.com/) example that sends test mail through [Mailexam](https://mailexam.ru/) SMTP via the Go standard library [`net/smtp`](https://pkg.go.dev/net/smtp).
+Minimal [Gin](https://gin-gonic.com/) example that sends test mail through [Mailexam](https://mailexam.io/) SMTP via the Go standard library [`net/smtp`](https://pkg.go.dev/net/smtp).
 
 Based on the [Mailexam Gin guide](https://wiki.mailexam.ru/en/examples/gin/).
 
@@ -15,7 +15,7 @@ From your Mailexam welcome email or dashboard:
 |----------|-------------|
 | `MAILEXAM_LOGIN` | SMTP login (for example, `xxxxx`) |
 | `MAILEXAM_PASSWORD` | SMTP password (paired with the login) |
-| Host | `{MAILEXAM_LOGIN}.mailexam.ru` (built automatically in code) |
+| Host | `{MAILEXAM_LOGIN}.mailexam.io` (built automatically in code) |
 
 ## Quick start (host)
 
@@ -116,13 +116,13 @@ variables:
   MAIL_FROM: "noreply@example.test"
 ```
 
-After sending a message in a test, verify delivery via the [Mailexam API](https://mailexam.ru/api).
+After sending a message in a test, verify delivery via the [Mailexam API](https://mailexam.io/api).
 
 ## Troubleshooting
 
 **TLS or authentication failed**
 
-- Host must be `{login}.mailexam.ru`, where `{login}` matches `MAILEXAM_LOGIN`.
+- Host must be `{login}.mailexam.io`, where `{login}` matches `MAILEXAM_LOGIN`.
 - Login and password must come from the same Mailexam project.
 
 **Port 587**
@@ -143,4 +143,4 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 - [Mailexam Gin guide (wiki)](https://wiki.mailexam.ru/en/examples/gin/)
 - [Axum](https://github.com/mailexam/Axum), [Actix Web](https://github.com/mailexam/Actix) — other high-performance frameworks
 - [Gin documentation](https://gin-gonic.com/docs/)
-- [Mailexam API documentation](https://mailexam.ru/api)
+- [Mailexam API documentation](https://mailexam.io/api)
