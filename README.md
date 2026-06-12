@@ -144,3 +144,7 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 - [Axum](https://github.com/mailexam/Axum), [Actix Web](https://github.com/mailexam/Actix) — other high-performance frameworks
 - [Gin documentation](https://gin-gonic.com/docs/)
 - [Mailexam API documentation](https://mailexam.io/api)
+
+## License
+
+Apache 2.0
