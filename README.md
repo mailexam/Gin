@@ -141,7 +141,9 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 ## See also
 
 - [Mailexam Gin guide (wiki)](https://wiki.mailexam.ru/en/examples/gin/)
-- [Axum](https://github.com/mailexam/Axum), [Actix Web](https://github.com/mailexam/Actix) — other high-performance frameworks
+- [Echo reference implementation](https://github.com/mailexam/Echo) — same SMTP module pattern
+- [Beego reference implementation](https://github.com/mailexam/Beego) — another Go framework with the same SMTP module
+- [Axum](https://github.com/mailexam/Axum), [Actix Web](https://github.com/mailexam/Actix) — Rust frameworks with the same SMTP pattern
 - [Gin documentation](https://gin-gonic.com/docs/)
 - [Mailexam API documentation](https://mailexam.io/api)
 
